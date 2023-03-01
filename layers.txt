@@ -1,0 +1,16 @@
+index.js -> Chamar Todas As Camadas
+
+services ->
+-> Toda a Lógica do Negócio
+-> Toda Chamada Externa(API, arquivos, banco de dados)
+
+views ->
+-> Toda iteração com o DOM (Com o HTML, com a página)
+
+controllers ->
+-> É a intermediária entre services e views
+
+factories ->
+-> A factory é quem importa as dependências
+-> e cria o objeto final para fazermos as requests
+workers ->
